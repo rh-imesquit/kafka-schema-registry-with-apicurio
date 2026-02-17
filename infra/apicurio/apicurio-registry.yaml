@@ -6,11 +6,11 @@ metadata:
 spec:
   app:
     ingress:
-      host: apicurio-app.apps.cluster-b2rtr.b2rtr.sandbox637.opentlc.com
+      host: apicurio-app.apps.cluster-hx8vp.hx8vp.sandbox1255.opentlc.com
     storage:
       kafkasql:
         bootstrapServers: 'cluster-lab-kafka-bootstrap.kafka.svc:9092'
       type: kafkasql
   ui:
     ingress:
-      host: apicurio-ui.apps.cluster-b2rtr.b2rtr.sandbox637.opentlc.com
+      host: apicurio-ui.apps.cluster-hx8vp.hx8vp.sandbox1255.opentlc.com

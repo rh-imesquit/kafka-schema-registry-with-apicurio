@@ -1,0 +1,11 @@
+{
+  "namespace": "com.redhat.musicplayer.model",
+  "type": "record",
+  "name": "Music",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "name", "type": "string"},
+    {"name": "duration", "type": "string", "doc": "Duration in seconds"},
+    {"name": "band", "type": "string"}
+  ]
+}
