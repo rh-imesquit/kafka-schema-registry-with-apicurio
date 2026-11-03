@@ -1,0 +1,16 @@
+apiVersion: registry.apicur.io/v1
+kind: ApicurioRegistry3
+metadata:
+  name: apicurio-lab
+  namespace: apicurio-registry
+spec:
+  app:
+    ingress:
+      host: apicurio-app.apps.ocp4lab.imesquit.tamlab.rdu2.redhat.com
+    storage:
+      kafkasql:
+        bootstrapServers: 'lab-cluster-kafka-bootstrap.kafka.svc.cluster.local:9092'
+      type: kafkasql
+  ui:
+    ingress:
+      host: apicurio-ui.apps.ocp4lab.imesquit.tamlab.rdu2.redhat.com
