@@ -1,10 +1,10 @@
-apiVersion: kafka.strimzi.io/v1beta2
+apiVersion: kafka.strimzi.io/v1
 kind: KafkaNodePool
 metadata:
-  name: node-pool
+  name: nodepool
   namespace: kafka
   labels:
-    strimzi.io/cluster: cluster-lab
+    strimzi.io/cluster: lab-cluster
 spec:
   replicas: 3
   roles:
